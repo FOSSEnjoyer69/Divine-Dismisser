@@ -1,4 +1,4 @@
-# Divine-Dismisser
+# Divine Dismisser
 Block Theist content
 
 Limitations
