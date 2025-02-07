@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "Divine Dismisser",
+    "version": "1.0",
+    "description": "Hides Theist content.",
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["contentScript.js"],
+        "run_at": "document_idle"
+      }
+    ],
+    "web_accessible_resources": [{
+      "resources": [
+        "training data/training_anti_theist.txt",
+        "training data/training_anti_theist.txt",
+        "training data/training_neutral.txt"
+      ],
+      "matches": ["<all_urls>"]
+    }]
+  }
+  
